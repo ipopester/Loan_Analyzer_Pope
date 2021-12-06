@@ -28,3 +28,15 @@ def load_csv(csvpath):
         for row in csvreader:
             data.append(row)
     return data
+
+#Save csv file:
+
+def save_csv(filepath, loan_data):
+
+    with open(filepath, "w") as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=",")
+    
+    #csvwriter.writerow(header)
+
+        for row in loan_data:
+         csvwriter.writerow(row)

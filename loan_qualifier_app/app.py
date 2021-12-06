@@ -31,7 +31,7 @@ def load_bank_data():
         The bank data from the data rate sheet CSV file.
     """
 
-    csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
+    csvpath = questionary.path("Enter a file path to a rate-sheet (.csv):").ask()
     csvpath = Path(csvpath)
     if not csvpath.exists():
         sys.exit(f"Oops! Can't find this path: {csvpath}")
@@ -114,7 +114,7 @@ def save_qualifying_loans(qualifying_loans):
     if qualifying_loans == None:
         sys.exit("There are no qualifying loans.")
     
-    confirm_save_file = questionary.confirm("Would you like to save the result to a CSV file?")
+    confirm_save_file = questionary.confirm("Would you like to save the result to a CSV file?").ask()
 
     if confirm_save_file == False:
         sys.exit("Your files will not be saved.")
