@@ -33,10 +33,10 @@ def load_csv(csvpath):
 
 def save_csv(filepath, loan_data):
 
+
     with open(filepath, "w") as csvfile:
         csvwriter = csv.writer(csvfile, delimiter=",")
-    
-    #csvwriter.writerow(header)
+        csvwriter.writerow(["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"])
 
         for row in loan_data:
          csvwriter.writerow(row)
