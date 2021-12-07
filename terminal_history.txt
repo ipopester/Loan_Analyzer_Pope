@@ -1,0 +1,200 @@
+  501  conda activate dev
+  502  pwd
+  503  cd Desktop/
+  504  pwd
+  505  ls
+  506  cd Github_Upload/Challenges_UW_Fintech_POPE/
+  507  ls
+  508  cd Challenge_2_Github_Upload_POPE/
+  509  ls
+  510  code .
+  511  git clone git@github.com:ipopester/Loan_Analyzer_Pope.git
+  512  git add -A
+  513  git add -A
+  514  git status
+  515  git commit -m "Initial upload of loan analyzer files for Challenge 2"
+  516  git status
+  517  git push origin main
+  518  git status
+  519  git add -A
+  520  git status
+  521  git add -A
+  522  git status
+  523  git add -A
+  524  git status
+  525  git commit -m "Initial upload for Loan Analyzer: Challenge 2"
+  526  git add .
+  527  git add .
+  528  git status
+  529  git status
+  530  git add
+  531  git add .
+  532  git commit -m "Initial upload Challenge 2 - Loan Analyzer"
+  533  pwd
+  534  ls
+  535  cd Loan_Analyzer_Pope/
+  536  git add -A
+  537  git status
+  538  git commit -m "Initial upload for Challenge 2: Loan Analyzer"
+  539  git push origin main
+  540  ls
+  541  conda env list
+  542  ls
+  543  git all -A
+  544  git add -A
+  545  git status
+  546  git commit -m "Loan Qualifier update: 211205"
+  547  git status
+  548  git push origin main
+  549  ls
+  550  pwd
+  551  pwd
+  552  ls
+  553  python loan_qualifier_app/
+  554  ls loan_qualifier_app/
+  555  ls
+  556  ls
+  557  ls
+  558  pwd
+  559  cd loan_qualifier_app/
+  560  ls
+  561  python app.py 
+  562  python app.py 
+  563  python app.py 
+  564  python app.py 
+  565  python app.py 
+  566  python app.py 
+  567  python app.py 
+  568  python app.py 
+  569  python app.py 
+  570  python app.py 
+  571  python app.py 
+  572  python app.py
+  573  python app.py
+  574  python app.py
+  575  python app.py
+  576  python app.py
+  577  python app.py
+  578  python app.py
+  579  python app.py
+  580  python app.py
+  581  python app.py
+  582  pwd
+  583  ls
+  584  cd ..
+  585  ls
+  586  git add -A
+  587  git commit -m "Loan Analyzer update 211206"
+  588  git status
+  589  git push origin main
+  590  ls
+  591  cd loan_qualifier_app/
+  592  ls
+  593  python app.py 
+  594  python app.py 
+  595  python app.py 
+  596  python app.py 
+  597  python app.py 
+  598  python app.py 
+  599  python app.py 
+  600  python app.py 
+  601  python app.py 
+  602  python app.py 
+  603  ls
+  604  python app.py 
+  605  python app.py 
+  606  pip list
+  607  ls
+  608  python app.py 
+  609  ls
+  610  touch images
+  611  ls
+  612  mkdir images
+  613  ls
+  614  python app.py 
+  615  ls
+  616  python app.py 
+  617  python app.py 
+  618  python app.py 
+  619  python app.py 
+  620  python app.py 
+  621  python app.py 
+  622  ls
+  623  cd ..
+  624  ls
+  625  git add -A
+  626  git commit -m "Updated README.md"
+  627  git status
+  628  git push origin main
+  629  ls
+  630  cd loan_qualifier_app/
+  631  ls
+  632  python app.py 
+  633  ls
+  634  cd ..
+  635  ls
+  636  git add -A
+  637  git commit -m "Added images folder"
+  638  git push origin main
+  639  cd loan_qualifier_app/
+  640  ls
+  641  python app.py 
+  642  python app.py 
+  643  python app.py 
+  644  git add -A
+  645  git commit -m "Updated images"
+  646  git push origin main
+  647  git status
+  648  git push origin main
+  649* 
+  650  python app.py 
+  651  ls
+  652  makedir results
+  653  mkdir results
+  654  ls
+  655  ls
+  656  python app.py 
+  657  python app.py 
+  658  ls
+  659  cd ..
+  660  ls
+  661  git add -A
+  662  git commit -m "Updated loan qualifier files, including images and app.py code"
+  663  git status
+  664  git push origin main
+  665  ls
+  666  ls
+  667  cd ..
+  668  ls
+  669  cd ..
+  670  ls
+  671  cd Challenge_2_Github_Upload_POPE/
+  672  ls
+  673  git status
+  674  ls
+  675  cd Loan_Analyzer_Pope/
+  676  ls
+  677  git add -A
+  678  git commit -m "Loan Qualifier app update 211107"
+  679  git push origin main
+  680  ls
+  681  cd loan_qualifier_app/
+  682  ls
+  683  python app.py 
+  684  git add -A
+  685  git commit -m "Updated photos"
+  686  git push origin main
+  687  git add README.md 
+  688  git commit -m "Updated README file"
+  689  git push origin main
+  690  git status
+  691  git add -A
+  692  git commit -m "Updated README file"
+  693  git push origin main
+  694  git add -A
+  695  git commit -m "Updated README file"
+  696  git push origin main
+  697  git add -A
+  698  git commit -m "Updated README file"
+  699  git push origin main
+  700  history 200 > terminal_history.txt
