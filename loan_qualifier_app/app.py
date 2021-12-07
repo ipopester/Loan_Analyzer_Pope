@@ -119,7 +119,7 @@ def save_qualifying_loans(qualifying_loans):
         filepath = questionary.path("Enter in the file path to save the CSV file.").ask()
         save_csv(filepath, qualifying_loans)
         sys.exit("A CSV file of qualifying loans has been created.")
-    elif confirm_save_file == True:     
+    else:     
         sys.exit("Your files will not be saved.")
 
 def run():
