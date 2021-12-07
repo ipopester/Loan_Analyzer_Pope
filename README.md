@@ -56,7 +56,7 @@ To save the result in the data folder:
 A message confirming that the results have been saved will appear in the CLI:
 
 ```python
-    A CSV file of qualifying loans has been created.
+    A csv file of qualifying loans has been created.
 ```
 
 ## Contributors
