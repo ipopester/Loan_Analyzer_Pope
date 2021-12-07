@@ -1,6 +1,6 @@
 # Loan Qualifier Application
 
-This is an application designed to facilitate the loan application process for people seeking a loan based on fundamental financial criteria. Applicants often want an idea of what lenders would be potentially willing to offer them a loan prior to speaking with a customer service agent, saving time for all parties. 
+This is an application designed to facilitate the loan selection process, which based on the user's core financial information, such as debt, home value, and credit score. Applicants often want to know whether their criteria meet those of  potential lenders. This application produces a list of qualifying lenders with the option to save the result as a csv file.
 
 ## Technologies
 
@@ -29,7 +29,7 @@ ___
 
 ## Usage
 
-To use the loan qualifier application clone the repo using the link on GitHub and run  `app.py` with:
+To use the loan qualifier application, clone the repo using the link on GitHub. Then run  `app.py` in the CLI using the following command:
 
 ```python
     python app.py
@@ -37,7 +37,7 @@ To use the loan qualifier application clone the repo using the link on GitHub an
 
 Upon running this code the user will be asked to enter the file path to the rate-sheet containing the list of banks and loan qualifications:
 
-![Initial prompt from the application](https://raw.githubusercontent.com/ipopester/Loan_Analyzer_Pope/a183335a14b840e063528b2f0bb7dc197df011c4/images/Initial_Prompt_Loan_Qualifier.png)
+![Initial prompt from the application](https://raw.githubusercontent.com/ipopester/Loan_Analyzer_Pope/main/images/Initial_CLI_Prompt_Loan_Qualifier.png)
 
 After entering in a file path, the user will be asked to provide the financial information for the applicant:
 
