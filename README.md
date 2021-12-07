@@ -35,6 +35,40 @@ To use the loan qualifier application clone the repo using the link on GitHub an
     python app.py
 ```
 
-Upon running this code you will be asked to enter the file path to the rate-sheet containing the list of banks and loan qualifications:
+Upon running this code the user will be asked to enter the file path to the rate-sheet containing the list of banks and loan qualifications:
 
-![Initial prompt from the application](/Users/Potato/Desktop/Github_Upload/Challenges_UW_Fintech_POPE/Challenge_2_Github_Upload_POPE/Loan_Analyzer_Pope/loan_qualifier_app/images/Initial_Prompt_Loan_Qualifier.png)
+![Initial prompt from the application](https://raw.githubusercontent.com/ipopester/Loan_Analyzer_Pope/a183335a14b840e063528b2f0bb7dc197df011c4/images/Initial_Prompt_Loan_Qualifier.png)
+
+After entering in a file path, the user will be asked to provide the financial information for the applicant:
+
+![Prompt for applicant's financial data](https://raw.githubusercontent.com/ipopester/Loan_Analyzer_Pope/main/images/Prompt_Applicant_Data_Loan_Qualifier.png)
+
+The application runs a series of filters to determine which banks would be willing to offer a loan based on the applicant's financial information. Based on the results, there are two outcomes:
+
+1. If no qualifying loans exist, the program closes.
+2. If there are qualifying loans, the user is given the option whether to save the file as a csv.
+
+To save the result in the data folder:
+
+```python
+    ./results/
+```
+A message confirming that the results have been saved will appear in the CLI:
+
+```python
+    A CSV file of qualifying loans has been created.
+```
+
+## Contributors
+
+Ian Pope: iancpope@uw.edu
+
+## License
+
+Copyright (c) (2021) (Ian Pope)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
