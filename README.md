@@ -37,4 +37,4 @@ To use the loan qualifier application clone the repo using the link on GitHub an
 
 Upon running this code you will be asked to enter the file path to the rate-sheet containing the list of banks and loan qualifications:
 
-![Initial prompt from the application](images/Initial_Prompt_Loan_Qualifier.png/)
+![Initial prompt from the application](/Users/Potato/Desktop/Github_Upload/Challenges_UW_Fintech_POPE/Challenge_2_Github_Upload_POPE/Loan_Analyzer_Pope/loan_qualifier_app/images/Initial_Prompt_Loan_Qualifier.png)
